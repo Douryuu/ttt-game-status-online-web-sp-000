@@ -32,7 +32,7 @@ def won?(board)
     state_2 = board[windex_2]
     if
     state_1 == state_2 && state_2 == state_3 && position_taken?(board, windex_1)
-    return board
+    return combos
   else
     false 
 end
