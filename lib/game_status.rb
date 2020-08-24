@@ -32,4 +32,4 @@ def won?(board)
 return false
 end
 
-def full_board?  
+def full?
