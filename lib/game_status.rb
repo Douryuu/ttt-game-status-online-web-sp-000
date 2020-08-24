@@ -16,19 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |win_combination|
-    windex_1 = win_combination[1]
-    windex_2 = win_combination[2]
-    windex_3 = win_combination[3]
-    
-    position_1 = board[windex_1]
-    position_2 = board[windex_2]
-    position_3 = board[windex_3]
-    
-    if position_1 == position_2 && position_2 == position_3 && position_taken?(board, windex_1)
-    return win_combination
-  end
-end
- return false
+  
 end
   
