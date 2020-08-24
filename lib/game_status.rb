@@ -24,11 +24,11 @@ def won?(board)
     position_1 = board[windex_1]
     position_2 = board[windex_2]
     position_3 = board[windex_3]
-  end
+    
     if position_1 == position_2 && position_2 == position_3 && position_taken?(board, windex_1)
     return win_combination
-  else
-    false 
   end
+end
+ return false
 end
   
