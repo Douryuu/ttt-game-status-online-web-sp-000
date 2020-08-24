@@ -33,4 +33,15 @@ return false
 end
 
 def full?(board)
-  if board.any? 
+  if board.any?{|index| index == nil || index == " "}
+    return false
+  else
+    return true
+  end
+end
+
+def draw?(board)
+  if full? == true && won? == false
+    return true
+  else 
+    false
