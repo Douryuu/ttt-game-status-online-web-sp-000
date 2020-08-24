@@ -33,4 +33,4 @@ return false
 end
 
 def full?(board)
-  
+  if board.any?
