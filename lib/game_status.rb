@@ -20,6 +20,10 @@ def won?(board)
     windex_1 = combos[1]
     windex_2 = combos[2]
     windex_3 = combos[3]
-  
+    
+    state_1 = board[windex_1]
+    state_2 = board[windex_2]
+    state_2 = board[windex_2]
+  end
 end
   
