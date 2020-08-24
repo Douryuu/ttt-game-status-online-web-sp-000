@@ -26,13 +26,13 @@ def won?(board)
     windex_7 = combos[7]
     windex_8 = combos[8]
     windex_9 = combos[9]
-    
+  end
+    if
     state_1 = board[windex_1]
     state_2 = board[windex_2]
     state_2 = board[windex_2]
     
     state_1 == state_2 && state_2 == state_3 && position_taken?(board, windex_1)
-    return combos
-  end
+    
 end
   
