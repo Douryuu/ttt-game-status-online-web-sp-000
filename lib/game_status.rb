@@ -26,5 +26,7 @@ def won?(board)
     state_3 = board(windex_3)
     
     if state_1 == state_2 && state_2 == state_3 && state_3 == 'X'
+      return combo
+    end
 end
   
