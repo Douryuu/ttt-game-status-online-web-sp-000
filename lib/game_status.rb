@@ -55,3 +55,6 @@ def over?(board)
     false
   end
 end
+
+def winner(board, player)
+  if won(board)
